@@ -12,7 +12,7 @@ Our application will let the user CRUD an expense, which stores the amount and t
 ### Installation
 1. Clone the repository to your desktop
 2. Open terminal
-3. type: `cd SpenzooRedis`
+3. type: `cd Desktop/SpenzooRedis`
 4. type: `node query.js`
 5. type: ^C
 6. type: `npm start`

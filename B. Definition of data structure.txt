@@ -1,4 +1,0 @@
-Sorted set (ranking categories by the amount spent):
-key = categories:userId
-value = category name
-socre = sum of expenses under that category

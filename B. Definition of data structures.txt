@@ -1,0 +1,24 @@
+Hashes to record each expense
+key = `expense:${expenseId}` (increments every time)
+value = {
+id: expenseId,
+userId: userId,
+amount: amount,
+category: category,
+}
+
+
+A list that contains all the expenses
+key = expenses
+value = key of expense hashes
+
+
+Sets to keep a list of expenses of a specifc user
+key = `${userId}`
+value = keys of expense hashes that belongs to that userId
+
+
+Sorted sets to rank categories by the amount spent)
+key = `leaderboard:${userId}`
+score = amount
+value = expense.category

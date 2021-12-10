@@ -20,3 +20,15 @@ Our application will let the user CRUD an expense, which stores the amount and t
 8. Open any browser, type in the link: `localhost:5000`
 
 ![](A.%20UML%20Class%20Diagram.png)
+
+For the project, we discussed and wrote down the business requirements together, then split the tasks as below:
+
+Hannah Chi @YuHan Chi worked on:
+UML Class Diagram
+Creating the database with MongoDB and writing the queries that represent the key features of our app
+
+Tzu-Chi Tai @Sabrina Tai worked on:
+ERD and relational schema
+Generating test data with the help of Mockaroo
+
+Then for creating a basic Node + Express application, we implemented together by doing pair programming. All commits are made by Hannah because we organized everything to do a checkdown before submitting the final work.

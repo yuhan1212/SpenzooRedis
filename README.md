@@ -13,9 +13,10 @@ Our application will let the user CRUD an expense, which stores the amount and t
 1. Clone the repository to your desktop
 2. Open terminal
 3. type: `cd Desktop/SpenzooRedis`
-4. type: `node query.js`
-5. type: ^C
-6. type: `npm start`
-7. Open any browser, type in the link: `localhost:5000`
+4. type: `npm install`
+5. type: `node query.js`
+6. ^C to quit Redis server
+7. type: `npm start`
+8. Open any browser, type in the link: `localhost:5000`
 
 ![](A.%20UML%20Class%20Diagram.png)
